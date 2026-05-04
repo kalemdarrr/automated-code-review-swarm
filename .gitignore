@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+knowledge_base/chroma_db/*
+!knowledge_base/chroma_db/.gitkeep
+knowledge_base/processed/*
+!knowledge_base/processed/.gitkeep
+reports/audit_logs/
+reports/sample_outputs/demo_report.md
+models/local_llm/*
+!models/local_llm/.gitkeep
+models/local_embedding/*
+!models/local_embedding/.gitkeep
+

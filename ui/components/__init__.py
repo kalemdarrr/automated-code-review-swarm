@@ -1,0 +1,2 @@
+"""Optional Streamlit component package."""
+
