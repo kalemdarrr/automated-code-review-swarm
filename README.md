@@ -8,7 +8,7 @@ No OpenAI, Anthropic, Gemini, or remote LLM API calls are used. The language mod
 
 Manual code review is slow and inconsistent, especially when reviewers must simultaneously check security, maintainability, architecture, and performance. This project builds a local AI review system that combines specialized agents, retrieval over trusted engineering references, risk controls, and an evaluation pipeline.
 
-The system does not execute submitted code, does not run shell commands from code, and does not send code to external services..
+The system does not execute submitted code, does not run shell commands from code, and does not send code to external services.
 
 ## Academic Requirement Mapping
 
