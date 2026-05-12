@@ -2,7 +2,7 @@
 
 Automated Code Review & Security Swarm is a local-first agentic LLM application for professional code review and security auditing. Developers paste or upload source code, and a multi-agent swarm analyzes it as text only. The system retrieves evidence from a ChromaDB-backed RAG knowledge base, uses a locally loaded HuggingFace-compatible Transformer model, monitors risk, and returns a report-ready Markdown review.
 
-No OpenAI, Anthropic, Gemini, or remote LLM API calls are used. The language model is loaded from `models/local_llm/` with `local_files_only=True`.
+Not OpenAI, Anthropic, Gemini, or remote LLM API calls are used. The language model is loaded from `models/local_llm/` with `local_files_only=True`.
 
 ## Problem Definition
 
